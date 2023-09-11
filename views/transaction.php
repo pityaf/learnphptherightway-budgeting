@@ -60,7 +60,7 @@
             <tfoot>
                 <tr>
                     <th colspan="3">Total Income:</th>
-                    <td><?= formatEuroAmount($totals['totalIncom']) ?? 0 ?></td>
+                    <td><?= formatEuroAmount($totals['totalIncome']) ?? 0 ?></td>
                 </tr>
                 <tr>
                     <th colspan="3">Total Expense:</th>

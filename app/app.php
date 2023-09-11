@@ -63,7 +63,7 @@ function calculatoTotal(array $transactions): array
         $totals['netTotal'] += $transaction['amount'];
 
         if($transaction['amount'] >= 0) {
-            $totals['totalIncom'] += $transaction['amount'];
+            $totals['totalIncome'] += $transaction['amount'];
         } else {
             $totals['totalExpense'] += $transaction['amount'];
         }
