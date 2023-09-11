@@ -21,7 +21,6 @@ foreach($files as $file) {
 
 $totals = calculatoTotal($transactions);
 
-print_r($transactions);
-
+//print_r($transactions);
 
 require VIEWS_PATH . 'transaction.php';
